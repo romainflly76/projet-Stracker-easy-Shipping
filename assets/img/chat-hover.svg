@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="84px" height="84px" viewBox="0 0 84 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Group 12</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-22.2%" y="-19.4%" width="144.4%" height="144.4%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <circle id="path-2" cx="36" cy="36" r="36"></circle>
+        <filter x="-9.7%" y="-6.9%" width="119.4%" height="119.4%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.152258832 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Transporteur---TRANSPORTEUR---fiche" transform="translate(-1154.000000, -1391.000000)">
+            <g id="TALKBOT" transform="translate(815.000000, 764.000000)">
+                <g id="BULLE-TALKBOT" filter="url(#filter-1)" transform="translate(345.000000, 629.000000)">
+                    <g id="Group-12">
+                        <g id="Oval-2">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                            <use fill="#34B59D" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        </g>
+                        <image id="TALKBOT" x="15" y="16" width="38" height="42" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADoAAABBCAYAAACAXrcqAAAABGdBTUEAALGOfPtRkwAAA1hJREFUaAXtmktrFEEUhTODLxR8iyIx4FtQFETFhY+NDgEVFwqiO/+DO13OQFa6zsJfkIUI7nQTH0s3rsSFSAJBEUWDaAzR8Ttt9VBObqY7k0lmqq0Lh66+9bj31Knq7hmq1GdYvV6vGu4gXKVS6Y6VaMl3OoLb8V0Dq/26QMq/yXMSPAATPukGUUfyMg0OgSLYc0iMpmTLYuRIVigWhaRonQIn0m2YEMWxBhwHRbPzEBK3vmTpwnqM8g45CmjjLN+BspO2v4AEU0r94pgu3cZDKa0t0DXhlhItEC+bSiRqz0u43qhouNrZmUdF7XkJ1xsVDVc7O/OoqD0v4XqjouFqZ2ceFbXnJVxvVDRc7ezMo6L2vITrjYqGq52deVTUnpdwvVHRcLWzM4+K2vMSrjcqGq52duZRUXtewvVGRZu0q3P/Cvxo8nfz9rvLSbllWl5FhzkHcITR7oJ3maMufoNHhLjnchrOE25Znka0+aR2OrPDeQAV14MbYINultC+EOs+edzyYia5efdmMS/RigiKqKCRuFfQbeAqWAcW074x+Aj45zSYDmHgG8wTOC9RnUHaw8CruE41EX6PT2d5LoJdIO92oGlLm6F2HGiZTqYTrB6OoHK5CTbKl2Ul1+l2VkOv/inlZ37gtM6NJZV1Cm0zUDJ5T7xM0/YDeA1egl8tYpym/gzIa7W8ivoDKsBJSEm9t34yflkdHHEVRVj7Wns6XeZfKQufwRRItoaulrmxFPMKWGG1aeVrh6jGU6DrYIYELnF9DJIlzbVhzcQbFTkLjpy2xTlwALSbb/sdXa4KfNhhmsT0YBoFH0FLhVTfbI6Y3FvAWbATzFs9+syytmdo1kh/E9qPX5CJuB4WY0BLVOdoBU3CcqClvNZBZZ1F3ARWgo5bJ4k2JycldMhZ6LqVu57BEiXw/xB1T0Y94gttqaIPC80ScinRCcpvikw2IeqW7whERbiQ1ni9iCzvPZGsgGMg7zeq+vS8mWTcF4regweBXurdtL0E37rABGom0QUO2tHu3qRfYOB9oLEK5xGo94n6ZBxpfS4Ogt1+XUa5llHfu9UiDZ6AnyDLqj2/dLOmGoZV2ujXjlQemKN9uIpahEQavAD65eRb+IrORRi//tXQvyFHwdAfd2UI2TN5GikAAAAASUVORK5CYII="></image>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

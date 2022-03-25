@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>BULLE TALKBOT closed</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="24" cy="24" r="24"></circle>
+        <filter x="-14.6%" y="-10.4%" width="129.2%" height="129.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.152258832 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Web-transporteurs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="TABLEAU-DE-BORD.-TRANSPORTEUR---Profil" transform="translate(-18.000000, -139.000000)">
+            <g id="BULLE-TALKBOT-closed" transform="translate(22.000000, 141.000000)">
+                <g id="Oval-2">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#34B59D" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <path d="M24.0023069,23.6667848 L28.4589995,19.2099064 C28.735889,18.9332416 28.735889,18.4843406 28.4589995,18.2076758 C28.18211,17.9307747 27.7337002,17.9307747 27.4568107,18.2076758 L23.0001181,22.6645542 L18.5431893,18.2076758 C18.2662998,17.9307747 17.81789,17.9307747 17.5410005,18.2076758 C17.264111,18.4843406 17.264111,18.9332416 17.5410005,19.2099064 L21.9979293,23.6667848 L17.5410005,28.1236632 C17.264111,28.400328 17.264111,28.849229 17.5410005,29.1258938 C17.6794452,29.2641081 17.8608882,29.3333333 18.0420949,29.3333333 C18.2233016,29.3333333 18.4047445,29.2641081 18.5431893,29.1256575 L23.0001181,24.6687791 L27.4568107,29.1256575 C27.5952555,29.2641081 27.7766984,29.3333333 27.9579051,29.3333333 C28.1391118,29.3333333 28.3205548,29.2641081 28.4589995,29.1256575 C28.735889,28.8489928 28.735889,28.4000917 28.4589995,28.1234269 L24.0023069,23.6667848 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

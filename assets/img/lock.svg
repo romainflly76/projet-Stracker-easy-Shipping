@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="14px" viewBox="0 0 13 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>lock</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Website-affreteurs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.5" stroke-linecap="round" stroke-linejoin="round">
+        <g id="inscription" transform="translate(-458.000000, -470.000000)" stroke="#606470">
+            <g id="Group" transform="translate(420.000000, 112.000000)">
+                <g id="Login" style="mix-blend-mode: multiply;" transform="translate(19.000000, 359.000000)">
+                    <g id="lock" transform="translate(20.000000, 0.000000)">
+                        <rect id="Rectangle-path" x="0" y="5.4" width="10.8" height="6.6" rx="2"></rect>
+                        <path d="M2.4,5.4 L2.4,3 C2.4,1.34314575 3.74314575,8.8817842e-16 5.4,8.8817842e-16 C7.05685425,8.8817842e-16 8.4,1.34314575 8.4,3 L8.4,5.4" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

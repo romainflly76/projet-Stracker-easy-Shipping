@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="94px" height="95px" viewBox="0 0 94 95" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <ellipse id="path-1" cx="27.5431373" cy="27.5" rx="27.5431373" ry="27.5"></ellipse>
+        <filter x="-59.0%" y="-50.0%" width="218.0%" height="218.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.376470588   0 0 0 0 0.392156863   0 0 0 0 0.439215686  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="MISSION-EN-COURS-PLAN---transporteur---ajouter-une-course-2" transform="translate(-591.000000, -288.000000)">
+            <g id="rol-pop-up">
+                <g id="Group-4" transform="translate(490.768627, 252.000000)">
+                    <g id="Group-2" transform="translate(120.188235, 45.000000)">
+                        <g id="navigation" transform="translate(-0.000000, 6.000000)">
+                            <g id="Oval-5">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                <use fill="#5A9FAC" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            </g>
+                            <polygon id="Shape" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" points="19.0298039 27.0526316 36.0564706 19 27.9912074 36 26.1989267 28.8421053"></polygon>
+                        </g>
+                        <g id="success" transform="translate(38.059608, 0.000000)">
+                            <ellipse id="Oval" fill="#25AE88" fill-rule="nonzero" cx="16.025098" cy="16" rx="16.025098" ry="16"></ellipse>
+                            <polyline id="Shape" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="25.0392157 10 14.561267 22 8.01254902 16.6666667"></polyline>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

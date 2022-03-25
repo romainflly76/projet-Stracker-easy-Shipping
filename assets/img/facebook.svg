@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="17px" viewBox="0 0 8 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>facebook-social-symbol</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.321316964">
+        <g id="footer" transform="translate(-1111.000000, -26.000000)" fill="#090509" fill-rule="nonzero">
+            <g id="reseaux" transform="translate(1111.000000, 26.000000)">
+                <g id="facebook-social-symbol" transform="translate(0.000000, 0.122449)">
+                    <path d="M4.97773061,5.20339592 L4.98171429,3.83356735 C4.98171429,3.11986939 5.03134694,2.73769796 6.05374694,2.73769796 L7.94569796,2.73769796 L7.94569796,0 L5.23480816,0 C2.6043102,0 1.99882449,1.35892245 1.99882449,3.59134694 L2.00179592,5.20339592 L0.00561632653,5.20437551 L0.00561632653,7.94106122 L2.00179592,7.94106122 L2.00179592,15.8821551 L4.9787102,15.8821551 L4.98070204,7.94106122 L7.68365714,7.94008163 L7.97449796,5.20339592 L4.97773061,5.20339592 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

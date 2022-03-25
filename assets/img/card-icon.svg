@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="16px" viewBox="0 0 20 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>card icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Web-transporteurs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="TABLEAU-DE-BORD.-TRANSPORTEUR---Profil" transform="translate(-701.000000, -898.000000)" fill="#D0D4D9">
+            <g id="Group-6" transform="translate(212.000000, 223.000000)">
+                <g id="info" transform="translate(455.000000, 480.000000)">
+                    <g id="Group" transform="translate(0.000000, 151.000000)">
+                        <path d="M52,44 L36,44 C34.89,44 34.01,44.89 34.01,46 L34,58 C34,59.11 34.89,60 36,60 L52,60 C53.11,60 54,59.11 54,58 L54,46 C54,44.89 53.11,44 52,44 L52,44 Z M52,58 L36,58 L36,52 L52,52 L52,58 L52,58 Z M52,48 L36,48 L36,46 L52,46 L52,48 L52,48 Z" id="card-icon"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90px" height="88px" viewBox="0 0 90 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M24,0 L28,0 C41.254834,-2.4348735e-15 52,10.745166 52,24 C52,37.254834 41.254834,48 28,48 L24,48 C10.745166,48 1.623249e-15,37.254834 0,24 C-1.623249e-15,10.745166 10.745166,2.4348735e-15 24,0 Z" id="path-1"></path>
+        <filter x="-62.5%" y="-57.3%" width="225.0%" height="235.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.376470588   0 0 0 0 0.392156863   0 0 0 0 0.439215686  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="filtrehome-transporteur" transform="translate(-1171.000000, 14.000000)">
+            <g id="search" transform="translate(1190.000000, 1.000000)">
+                <g id="Group-2">
+                    <g id="Group-3">
+                        <g id="magnifying-glass">
+                            <g id="Rectangle-2">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            </g>
+                        </g>
+                        <path d="M34.755102,31.5795918 L29.9469388,26.7714286 C31.1387755,25.3183673 31.8571429,23.4571429 31.8571429,21.4285714 C31.8571429,16.7755102 28.0816327,13 23.4285714,13 C18.7714286,13 15,16.7755102 15,21.4285714 C15,26.0816327 18.7714286,29.8571429 23.4285714,29.8571429 C25.4571429,29.8571429 27.3142857,29.1428571 28.7673469,27.9510204 L33.5755102,32.755102 C33.9020408,33.0816327 34.4285714,33.0816327 34.755102,32.755102 C35.0816327,32.4326531 35.0816327,31.9020408 34.755102,31.5795918 Z M23.4285714,28.1795918 C19.7020408,28.1795918 16.6734694,25.1510204 16.6734694,21.4285714 C16.6734694,17.7061224 19.7020408,14.6734694 23.4285714,14.6734694 C27.1510204,14.6734694 30.1836735,17.7061224 30.1836735,21.4285714 C30.1836735,25.1510204 27.1510204,28.1795918 23.4285714,28.1795918 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

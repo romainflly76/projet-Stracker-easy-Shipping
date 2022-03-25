@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="52px"
+   height="52px"
+   viewBox="0 0 52 52"
+   version="1.1"
+   id="svg15"
+   sodipodi:docname="truck-plus.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata21">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs19" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2400"
+     inkscape:window-height="1271"
+     id="namedview17"
+     showgrid="false"
+     inkscape:zoom="3.2091769"
+     inkscape:cx="50.657032"
+     inkscape:cy="-26.934379"
+     inkscape:window-x="2391"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg15" />
+  <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+  <title
+     id="title2">Group 6</title>
+  <desc
+     id="desc4">Created with Sketch.</desc>
+  <g
+     id="g882"
+     transform="matrix(1.0752199,0,0,1.0752199,-0.5265388,-0.22117709)"
+     style="fill:#6e6e6e;fill-opacity:1;opacity:0.97">
+    <g
+       id="Web-transporteurs"
+       style="fill:#6e6e6e;fill-rule:evenodd;stroke:none;stroke-width:1;fill-opacity:1">
+      <g
+         transform="translate(-363,-402)"
+         id="Transporteur---TRANSPORTEUR---fiche"
+         style="fill:#6e6e6e;fill-opacity:1">
+        <g
+           transform="translate(300,181)"
+           id="Group-8"
+           style="fill:#6e6e6e;fill-opacity:1">
+          <g
+             id="Group-6"
+             transform="translate(63,221)"
+             style="fill:#6e6e6e;fill-opacity:1">
+            <g
+               id="g9"
+               style="fill:#6e6e6e;fill-opacity:1">
+              <g
+                 transform="translate(7,15)"
+                 id="delivery-truck"
+                 style="fill:#6e6e6e;fill-rule:nonzero;fill-opacity:1">
+                <path
+                   id="Shape"
+                   d="M 34.984878,18.349601 C 34.848289,17.618369 33.642021,11.178172 33.34404,10.237911 32.6276,7.9772611 30.906349,5.4037356 28.739787,3.3537484 26.487159,1.2224061 24.153269,0 22.336413,0 H 4.6630441 C 3.7471256,0 3.001926,0.78282089 3.001926,1.7449795 V 4.4868568 H 1.7782047 c -0.4487732,0 -0.81261095,0.382206 -0.81261095,0.8536355 0,0.4714295 0.36383775,0.8536355 0.81261095,0.8536355 H 3.0018554 V 8.2303826 H 0.81261091 C 0.3638377,8.2303826 0,8.6125886 0,9.0840182 0,9.5554477 0.3638377,9.9376537 0.81261091,9.9376537 H 3.0018554 V 18.51387 c 0,0.962159 0.7451995,1.744905 1.661118,1.744905 H 6.6889891 C 6.9919163,22.373416 8.7329528,24 10.829065,24 c 2.096112,0 3.837149,-1.626584 4.140005,-3.741225 h 7.453692 C 22.725618,22.373416 24.466725,24 26.562837,24 c 2.096113,0 3.837149,-1.626584 4.140006,-3.741225 h 2.635968 C 34.254801,20.258775 35,19.476029 35,18.51387 35,18.45879 34.9949,18.403788 34.98488,18.349601 Z M 31.708997,10.501944 H 23.33543 V 1.8598862 c 2.966453,0.836934 7.078123,4.9829304 8.373567,8.6420578 z M 10.829136,22.292803 c -1.4125301,0 -2.5617739,-1.207189 -2.5617739,-2.691104 0,-1.483842 1.1492438,-2.691031 2.5617739,-2.691031 1.412529,0 2.561703,1.207189 2.561703,2.691031 -7.1e-5,1.483915 -1.149174,2.691104 -2.561703,2.691104 z m 15.733772,0 c -1.41253,-7.4e-5 -2.561773,-1.207263 -2.561773,-2.691104 0,-1.483842 1.149243,-2.691031 2.561773,-2.691031 1.41253,0 2.561703,1.207189 2.561703,2.691031 0,1.483915 -1.149173,2.691104 -2.561703,2.691104 z m 6.735767,-3.741224 c -0.677646,0 -2.67038,0 -2.67038,0 -0.44948,-1.919641 -2.1012,-3.348108 -4.065387,-3.348108 -1.964186,0 -3.615977,1.428467 -4.065457,3.348108 h -7.602929 c -0.44948,-1.919641 -2.1012,-3.348108 -4.065386,-3.348108 -1.9641869,0 -3.6159776,1.428467 -4.0654574,3.348108 H 4.6630441 c -0.019785,0 -0.035967,-0.01693 -0.035967,-0.03764 V 9.9377279 h 9.9587239 c 0.448773,0 0.812611,-0.382206 0.812611,-0.8536355 0,-0.4714295 -0.363838,-0.8536355 -0.812611,-0.8536355 H 4.6270772 V 6.1942021 h 4.5838322 c 0.4487732,0 0.8126106,-0.3822061 0.8126106,-0.8536356 0,-0.4714295 -0.3638374,-0.8536355 -0.8126106,-0.8536355 H 4.6270772 V 1.7450537 c 0,-0.020784 0.016111,-0.037708 0.035896,-0.037708 H 21.710208 v 9.6481593 c 0,0.47143 0.363767,0.853636 0.812611,0.853636 l 9.606827,7.4e-5 c 0.346526,1.659839 0.821797,4.320286 1.226407,6.289735 0.0082,0.03964 -0.01541,0.05263 -0.05738,0.05263 z"
+                   inkscape:connector-curvature="0"
+                   style="fill:#6e6e6e;fill-opacity:1" />
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g
+       transform="matrix(0.63216161,0,0,0.63216161,-3.8075978,25.505364)"
+       id="g868"
+       style="fill:#6e6e6e;fill-opacity:1">
+      <circle
+         style="fill:#6e6e6e;fill-opacity:1;stroke-width:0.41949153"
+         id="Oval-1"
+         cx="71.720345"
+         cy="-24.788136"
+         r="10.906779" />
+      <path
+         id="path848-0"
+         style="fill:#6e6e6e;stroke:#ffffff;stroke-width:2.20312452;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+         d="M 78.356587,-24.788137 H 65.084103 m 6.63624,-6.63624 v 13.272482"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>

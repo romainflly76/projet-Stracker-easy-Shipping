@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1px" height="27px" viewBox="0 0 1 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Line</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Web-transporteurs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-dasharray="1,4" stroke-linecap="round" stroke-linejoin="bevel">
+        <g id="TABLEAU-DE-BORD.-TRANSPORTEUR---missions-effectuees" transform="translate(-223.000000, -388.000000)" stroke="#000000">
+            <g id="Group-5" transform="translate(177.000000, 147.000000)">
+                <g id="Group-4" transform="translate(0.000000, 88.000000)">
+                    <g id="Group-2" transform="translate(42.000000, 135.000000)">
+                        <path d="M4.5,18.5 L4.5,45.5185122" id="Line"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
