@@ -7,18 +7,18 @@ export default class NavbarMap extends Component {
     return (
       <div>
         <Navbar bg="white" variant="white">
-          <Container>
+          <Container className="ms-5">
             <Navbar.Brand href="#home">
               <img
                 alt=""
-                src="/logo512.png"
-                width="30"
-                height="30"
+                src="/LogoStracker.png"
+                width="200"
+                height="50"
                 className="d-inline-block align-top"
               />{" "}
-              Stracker
+              {/* by Easy shipping */}
             </Navbar.Brand>
-            <Nav className="me-auto">
+            <Nav className="ms-5 me-auto">
               <div id="ref" class="d-flex flex-row">
                 <div class="p-1 text-white">REF :</div>
                 <input

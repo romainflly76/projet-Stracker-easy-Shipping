@@ -9,10 +9,10 @@ const Footer = () => {
   return (
     <div className="d-flex justify-content-start p-2">
       <footer className="footer d-flex">
-        <p className="footer__copyright">
-          2019 Tous droits réservés EasyShipping
+        <p className="footer__copyright me-5 ms-5">
+          2022 Tous droits réservés EasyShipping
         </p>
-        <div id="Links">
+        <div id="Links" className="me-5 ms-5">
           <a className="text-secondary m-3 text-decoration-none" href="">
             Confidentialité
           </a>
@@ -29,7 +29,7 @@ const Footer = () => {
             Nous contacter
           </a>
         </div>
-        <div id="Social" className="footer__social">
+        <div id="Social" className="footer__social ms-5">
           <a
             className="text-secondary m-3"
             href="https://www.facebook.com/easyshipping95/"
