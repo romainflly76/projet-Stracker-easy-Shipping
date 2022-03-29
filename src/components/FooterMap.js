@@ -7,7 +7,7 @@ import { FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="d-flex justify-content-start p-2">
+    <div className="d-flex justify-content-around">
       <footer className="footer d-flex">
         <p className="footer__copyright me-5 ms-5">
           2022 Tous droits réservés EasyShipping

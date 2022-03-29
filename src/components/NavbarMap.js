@@ -1,6 +1,14 @@
-import React, { Component } from "react";
+import React, { Component, useState } from "react";
+
 import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
 import "./NavbarMap.css";
+
+// const [data, setData] = useState("");
+
+// *************** Fonction recuperation des données tapés dans la REF ************************//
+const Field = (data) => {
+  console.log(data);
+};
 
 export default class NavbarMap extends Component {
   render() {
@@ -25,8 +33,12 @@ export default class NavbarMap extends Component {
                   id="inputRef"
                   className="rounded-right"
                   type="text"
-                  onchange="myFunction()"
+                  // *************  recuperation de la valeur ***************//
+                  onChange={(e) => Field(e.target.value)}
                 />
+                <button id="validation" className="" type="submit">
+                  Valider
+                </button>
               </div>
             </Nav>
           </Container>

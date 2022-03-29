@@ -9,3 +9,7 @@
   border: #dee2e6;
   /* border-radius: 0 15px 15px 0; */
 }
+#validation {
+  border: none;
+  background-color: #dee2e6;
+}
