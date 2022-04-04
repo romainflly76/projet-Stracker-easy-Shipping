@@ -1,14 +1,23 @@
-import React, { Component, useState } from "react";
+import React, { Component, useState, useEffect } from "react";
+// import { FieldData } from "../api/Field";
 
 import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
+import { FieldData } from "../api/Field";
 import "./NavbarMap.css";
 
-// const [data, setData] = useState("");
+// const [newData, setNewData] = useState("");
 
-// *************** Fonction recuperation des données tapés dans la REF ************************//
 const Field = (data) => {
-  console.log(data);
+  if (data.length > 9) {
+    console.log(data);
+  }
 };
+
+// const handleSubmit = () => {};
+
+// useEffect(() => {
+//   console.log(newData);
+// }, [newData]);
 
 export default class NavbarMap extends Component {
   render() {
@@ -36,9 +45,14 @@ export default class NavbarMap extends Component {
                   // *************  recuperation de la valeur ***************//
                   onChange={(e) => Field(e.target.value)}
                 />
-                <button id="validation" className="" type="submit">
+                {/* <button
+                  id="validation"
+                  className=""
+                  type="submit"
+                  // onClick={handleSubmit}
+                >
                   Valider
-                </button>
+                </button> */}
               </div>
             </Nav>
           </Container>
