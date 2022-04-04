@@ -15,3 +15,17 @@ export const FieldData = async (oAuth, accessToken) => {
   if (resp.status === 403) return await resp;
   return await resp.json();
 };
+
+export const sendPackageRef = async (accessToken, oAuth, packageRef) => {
+  let resp = await fetch(`${api_url}/restricted/v1/my/add-vehicles`, {
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${oAuth}`,
+      jwtToken: `Bearer ${accessToken}`,
+    },
+    method: "POST",
+    body: JSON.stringify(packageRef),
+  });
+  if (resp.status === 403) return await resp;
+  return await resp.json();
+};
