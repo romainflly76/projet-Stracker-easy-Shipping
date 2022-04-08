@@ -1,5 +1,4 @@
-// ******************** Authetification API ***********************// Recuperer de la partie Front ************$
-
+// ******************** Authentification API ***********************// Recuperer de la partie Front ************$
 import React, { useState, useEffect, useContext, createContext } from "react";
 import jwt_decode from "jwt-decode";
 

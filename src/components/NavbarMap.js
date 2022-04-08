@@ -2,16 +2,24 @@ import React, { useState, useEffect } from "react";
 // import { FieldData } from "../api/Field";
 
 import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
-import { FieldData, sendPackageRef } from "../api/Field";
+// import { FieldData, sendPackageRef } from "../api/Field";
+import { useFieldData } from "../Hook/useField";
 import "./NavbarMap.css";
 
 export default function NavbarMap() {
   const [inputValue, setInputValue] = useState("");
 
+  // const { fieldData } = useFieldData();
+  const { addField } = useFieldData();
+
+  // const handleSubmit = () => {
+  //   // console.log("inputValue :", inputValue);
+  //   // sendPackageRef(accessToken, OAuth, inputValue);
+  //   // fieldData(inputValue);
+  // };
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("inputValue :", inputValue);
-    // sendPackageRef(accessToken, OAuth, inputValue);
+    addField(inputValue);
   };
 
   const handleChange = (e) => {
