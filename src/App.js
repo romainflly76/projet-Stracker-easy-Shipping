@@ -38,7 +38,9 @@ function App() {
     <div className="App">
       <NavbarMap mission={mission} fetchMission={fetchMission} />
       <br />
-      <MissionMap location={getStartAddress()} zoomLevel={17} />
+      {getStartAddress() && (
+        <MissionMap location={getStartAddress()} zoomLevel={17} />
+      )}
       <br />
       <Footer />
     </div>

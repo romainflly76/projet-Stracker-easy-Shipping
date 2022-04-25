@@ -17,12 +17,9 @@ function convertDate(inputFormat) {
   return [pad(d.getDate()), pad(d.getMonth() + 1), d.getFullYear()].join("/");
 }
 
-export default function NavbarMap() {
+export default function NavbarMap({ mission, fetchMission }) {
   // useState objet vide
   const [inputValue, setInputValue] = useState("");
-
-  // Fonction du hook FetchMission
-  const { mission, fetchMission } = useFetchMission();
 
   const handleSubmit = (e) => {
     e.preventDefault();

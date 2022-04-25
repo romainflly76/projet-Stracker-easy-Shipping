@@ -32,13 +32,13 @@ const MissionMap = ({ location, defaultLocation, zoomLevel }) => {
 
   return isLoaded ? (
     <div className="map">
-      <h2 className="map-h2">Come Visit Us At Our Campus</h2>
+      {/* <h2 className="map-h2">Affichage MAP</h2> */}
 
       <div className="google-map">
         <GoogleMapReact
           //   mapContainerStyle={containerStyle}
           bootstrapURLKeys={{ key: "AIzaSyDl1v5GDCgPyhsSyizrT7bmlOac7wlJnCI" }}
-          defaultCenter={location || defaultLocation}
+          defaultCenter={defaultLocation}
           defaultZoom={zoomLevel}
           //   onLoad={onLoad}
           //   onUnmount={onUnmount}
@@ -57,11 +57,5 @@ const MissionMap = ({ location, defaultLocation, zoomLevel }) => {
     <></>
   );
 };
-
-// const containerStyle = {
-//   width: "100%",
-
-//   height: "600px",
-// };
 
 export default React.memo(MissionMap);
