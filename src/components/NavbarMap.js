@@ -1,30 +1,43 @@
-import React, { useState, useEffect } from "react";
-// import { FieldData } from "../api/Field";
+import React, { useState } from "react";
 
-import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
-// import { FieldData, sendPackageRef } from "../api/Field";
-import { useFieldData } from "../Hook/useField";
+import { Navbar, Nav, Container } from "react-bootstrap";
+
+import { useFetchMission } from "../Hook/useFetchMission";
 import "./NavbarMap.css";
 
+// Condition si l'objet n'existe pas (undefiened ou null et qu'il n'a pas de clé)
+const isEmpty = (obj) => !obj || Object.keys(obj).length === 0;
+
+// Fonction Format Date
+function convertDate(inputFormat) {
+  function pad(s) {
+    return s < 10 ? "0" + s : s;
+  }
+  let d = new Date(inputFormat);
+  return [pad(d.getDate()), pad(d.getMonth() + 1), d.getFullYear()].join("/");
+}
+
 export default function NavbarMap() {
+  // useState objet vide
   const [inputValue, setInputValue] = useState("");
 
-  // const { fieldData } = useFieldData();
-  const { addField } = useFieldData();
+  // Fonction du hook FetchMission
+  const { mission, fetchMission } = useFetchMission();
 
-  // const handleSubmit = () => {
-  //   // console.log("inputValue :", inputValue);
-  //   // sendPackageRef(accessToken, OAuth, inputValue);
-  //   // fieldData(inputValue);
-  // };
   const handleSubmit = (e) => {
     e.preventDefault();
-    addField(inputValue);
+    fetchMission(inputValue);
   };
 
   const handleChange = (e) => {
     setInputValue(e.target.value);
   };
+
+  console.log(mission);
+  console.log(isEmpty(mission));
+  // const Submit = (data) => {
+  //   console.log("data");
+  // };
 
   return (
     <div>
@@ -43,24 +56,48 @@ export default function NavbarMap() {
           <Nav className="ms-5 me-auto">
             <div id="ref">
               <form
-                class="d-flex flex-row"
+                className="d-flex flex-row"
                 action="submit"
                 onSubmit={handleSubmit}
               >
-                <div class="p-1 text-white">REF :</div>
+                <div className="p-1 text-white">REF :</div>
                 <input
                   id="inputRef"
                   className="rounded-right"
                   type="text"
                   // *************  recuperation de la valeur ***************//
-                  value={inputValue}
-                  // onChange={(e) => Field(e.target.value)}
+                  // value={inputValue}
+                  // onChange={(e) => handleSubmit(e.target.value)}
                   onChange={handleChange}
                 />
                 <button id="validation" className="" type="submit">
                   Valider
                 </button>
               </form>
+
+              {/*************  recuperation de la valeur ***************/}
+              {!isEmpty(mission) && (
+                <div>
+                  <div className="p-1 text-dark">
+                    <span>{convertDate(mission.start_date)}</span>
+                    <span>{mission.startaddress.street}</span>
+                    <span>
+                      {mission.startaddress.zipcode +
+                        " " +
+                        mission.startaddress.city}
+                    </span>
+                  </div>
+                  <div className="p-1 text-dark">
+                    <span>{convertDate(mission.end_date)}</span>
+                    <span>{mission.endaddress.street}</span>
+                    <span>
+                      {mission.endaddress.zipcode +
+                        " " +
+                        mission.endaddress.city}
+                    </span>
+                  </div>
+                </div>
+              )}
             </div>
           </Nav>
         </Container>
