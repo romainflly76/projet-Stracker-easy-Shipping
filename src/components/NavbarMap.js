@@ -2,7 +2,6 @@ import React, { useState } from "react";
 
 import { Navbar, Nav, Container } from "react-bootstrap";
 
-import { useFetchMission } from "../Hook/useFetchMission";
 import "./NavbarMap.css";
 
 // Condition si l'objet n'existe pas (undefiened ou null et qu'il n'a pas de clé)

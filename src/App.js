@@ -1,12 +1,11 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import NavbarMap from "./components/NavbarMap";
-import Map from "./components/Map";
 import Footer from "./components/FooterMap";
 import MissionMap from "./components/MissionMap";
 import { useFetchMission } from "./Hook/useFetchMission";
 
-const location = {
+const defaultLocation = {
   lat: 49.44246,
   lng: 1.10439,
 };
@@ -33,14 +32,39 @@ function App() {
     }
     return null;
   };
-  console.log(getStartAddress());
+
+  const getEndAddress = () => {
+    if (!isEmpty(mission)) {
+      return {
+        lat: mission.endaddress.lat,
+        lng: mission.endaddress.lng,
+        address:
+          mission.endaddress.street +
+          " " +
+          mission.endaddress.zipcode +
+          " " +
+          mission.endaddress.city,
+      };
+    }
+    return null;
+  };
+
   return (
     <div className="App">
       <NavbarMap mission={mission} fetchMission={fetchMission} />
       <br />
-      {getStartAddress() && (
-        <MissionMap location={getStartAddress()} zoomLevel={17} />
-      )}
+      <MissionMap
+        defaultLocation={defaultLocation}
+        location={getStartAddress()}
+        zoomLevel={17}
+      />
+      <br />
+      <MissionMap
+        // Props passé au composant missionMap
+        defaultLocation={defaultLocation}
+        location={getEndAddress()}
+        zoomLevel={17}
+      />
       <br />
       <Footer />
     </div>
